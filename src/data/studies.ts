@@ -1,7 +1,7 @@
 export const studies = [
   {
-    title: "B.S. in Computer Science",
-    institution: "State University",
+    title: "Ingenieria de sistemas",
+    institution: "Universidad Santiago de Cali",
     description:
       "Core CS foundations: data structures, algorithms, operating systems, networking, and databases; team capstone in web systems.",
     tags: [
@@ -13,8 +13,8 @@ export const studies = [
     ],
   },
   {
-    title: "M.S. in Software Engineering",
-    institution: "Tech Institute",
+    title: "Tecnico en Asistencia Administrativa",
+    institution: "SENA",
     description:
       "Focus on distributed systems, testing strategies, and cloud architecture; thesis on resilience patterns in microservices.",
     tags: [
