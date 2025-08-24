@@ -1,52 +1,63 @@
 /* Base design tokens and defaults. These map to Starwind's inline theme variables. */
 :root {
-  /* Brand */
-  --accent: #FF8A4C;
-  --accent-dark: #F97316;
-  --accent-rgb: 255, 138, 76;
+  /* Brand (Futuristic Purple) */
+  --accent: #8B5CF6; /* Vibrant purple */
+  --accent-dark: #6D28D9; /* Deep futuristic purple */
+  --accent-rgb: 139, 92, 246;
 
-  /* Neutrals (light baseline; dark overrides live in themes/dark.css) */
+  /* Neutrals */
   --black: 15, 18, 25;
-  --gray: 96, 115, 159;
+  --gray: 120, 128, 160;
   --gray-light: 229, 233, 240;
   --gray-dark: 34, 41, 57;
 
-  /* Shadows */
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 8px 15px rgba(0, 0, 0, 0.12);
-  --shadow-xl: 0 12px 25px rgba(0, 0, 0, 0.16);
-  --shadow-2xl: 0 25px 50px rgba(0, 0, 0, 0.2);
+  /* Shadows (soft futuristic glow) */
+  --shadow-sm: 0 1px 2px rgba(139, 92, 246, 0.25);
+  --shadow-md: 0 4px 6px rgba(139, 92, 246, 0.3);
+  --shadow-lg: 0 8px 15px rgba(139, 92, 246, 0.35);
+  --shadow-xl: 0 12px 25px rgba(139, 92, 246, 0.4);
+  --shadow-2xl: 0 25px 50px rgba(139, 92, 246, 0.45);
 
   --box-shadow:
-    0 2px 6px rgba(0, 0, 0, 0.12),
-    0 8px 24px rgba(0, 0, 0, 0.12),
-    0 16px 32px rgba(0, 0, 0, 0.12);
+    0 2px 6px rgba(139, 92, 246, 0.25),
+    0 8px 24px rgba(139, 92, 246, 0.3),
+    0 16px 32px rgba(139, 92, 246, 0.35);
 
   /* Map to Starwind token variables via inline @theme in starwind.css */
-  --background: #ffffff;
+  --background: #faf9ff; /* Light lavender background */
   --foreground: #0f1219;
   --card: #ffffff;
   --card-foreground: #0f1219;
   --popover: #ffffff;
   --popover-foreground: #0f1219;
+
+  /* Accent */
   --primary: var(--accent);
   --primary-foreground: #ffffff;
-  --secondary: #FFB36B;
+  --secondary: #C084FC; /* Lighter violet */
   --secondary-foreground: #0f1219;
+
+  /* UI tokens */
   --muted: rgb(246, 247, 249);
-  --muted-foreground: rgb(96, 115, 159);
+  --muted-foreground: rgb(120, 128, 160);
   --accent-foreground: #0f1219;
-  --info: #7dd3fc;
+
+  /* States */
+  --info: #60a5fa; /* futuristic blue */
   --info-foreground: #082f49;
-  --success: #86efac;
+  --success: #34d399; /* neon green */
   --success-foreground: #052e16;
-  --warning: #fcd34d;
+  --warning: #fbbf24; /* neon amber */
   --warning-foreground: #451a03;
   --error: #ef4444;
   --error-foreground: #ffffff;
-  --border: rgb(229, 233, 240);
-  --input: rgb(229, 233, 240);
+
+  /* Inputs & Borders */
+  --border: rgba(139, 92, 246, 0.3);
+  --input: rgba(139, 92, 246, 0.15);
   --outline: var(--accent);
-  --radius: 0.75rem;
+
+  /* Rounded corners */
+  --radius: 1rem; /* a bit more futuristic */
 }
+
