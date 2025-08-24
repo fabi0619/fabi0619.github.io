@@ -11,19 +11,31 @@ export const workIcons = {
 
 export const work = [
   {
-    title: "Administrative Assistant",
-    company: "MedVital",
-    region: "Colombia - United States",
+    title: "",
+    company: "RT Berlin",
+    region: "Colombia",
     description:
-      "Managed and optimized cost administration processes to improve efficiency in the company’s budget control, while coordinating and scheduling appointments to ensure proper workflow and meet client expectations regarding time and services. Additionally, developed skills in specialized management and scheduling software, adapting to the demands of an international company.",
+      "Responsable del manejo de caja registradora y medios de pago. Encargado de la atención al cliente, control de inventario y apoyo en la organización de productos.",
     technologies: [
-      "Web Development",
-      "Creative Design",
-      "Digital Solutions",
-      "Problem Solving",
+      "Atencion al cliente",
+      "Gestion de caja",
+      "Inventario",
+      
     ],
   },
-  
+  {
+    title: "Vendedor",
+    company: "Tillas-sport",
+    region: "Colombia",
+    description:
+      "Gestión de ventas mediante el sistema XXX, asesoría personalizada a clientes y cumplimiento de objetivos comerciales. Uso de herramientas digitales para el seguimiento de ventas.",
+    technologies: [
+      "Ventas",
+      "sistema desktok",
+      "Servicio al cliente",
+      
+    ],
+  },
 ];
-
 export type WorkItem = (typeof work)[number];
+
