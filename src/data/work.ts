@@ -28,10 +28,10 @@ export const work = [
     company: "Tillas-sport",
     region: "Colombia",
     description:
-      "Gestión de ventas mediante el sistema XXX, asesoría personalizada a clientes y cumplimiento de objetivos comerciales. Uso de herramientas digitales para el seguimiento de ventas.",
+      "Gestión de ventas mediante el sistema stock, asesoría personalizada a clientes y cumplimiento de objetivos comerciales. Uso de herramientas digitales para el seguimiento de ventas.",
     technologies: [
       "Ventas",
-      "Sistema XXX",
+      "Sistema Stock",
       "Servicio al cliente",
       "Herramientas digitales",
     ],
