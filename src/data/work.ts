@@ -12,28 +12,15 @@ export const workIcons = {
 export const work = [
   {
     title: "Cajero",
-    company: "RT Berlin",
-    region: "Colombia",
+    company: "RP BERLIN",
+    region: "Colombia - United States",
     description:
       "Responsable del manejo de caja registradora y medios de pago. Encargado de la atención al cliente, control de inventario y apoyo en la organización de productos.",
-    technologies: [
-      "Atención al cliente",
-      "Gestión de caja",
-      "Inventario",
-      "Organización de productos",
-    ],
-  },
-  {
-    title: "Vendedor",
-    company: "Tillas-sport",
-    region: "Colombia",
-    description:
-      "Gestión de ventas mediante el sistema XXX, asesoría personalizada a clientes y cumplimiento de objetivos comerciales. Uso de herramientas digitales para el seguimiento de ventas.",
-    technologies: [
-      "Ventas",
-      "Sistema XXX",
-      "Servicio al cliente",
-      "Herramientas digitales",
+      technologies: [
+      "Web Development",
+      "Creative Design",
+      "Digital Solutions",
+      "Problem Solving",
     ],
   },
 ];
