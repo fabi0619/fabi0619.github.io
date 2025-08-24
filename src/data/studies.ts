@@ -3,7 +3,7 @@ export const studies = [
     title: "Ingenieria de sistemas",
     institution: "Universidad Santiago de Cali",
     description:
-      "Core CS foundations: data structures, algorithms, operating systems, networking, and databases; team capstone in web systems.",
+      "Soy estudiante de Ingeniería de Sistemas, con interés en el área de redes y telecomunicaciones. Poseo conocimientos en diseño, configuración y simulación de redes de datos mediante Cisco Packet Tracer, lo que me ha permitido desarrollar competencias prácticas y analíticas.",
     tags: [
       "Algorithms",
       "Data Structures",
