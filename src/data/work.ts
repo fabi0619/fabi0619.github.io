@@ -11,12 +11,14 @@ export const workIcons = {
 
 export const work = [
   {
-    title: "Senior Software Engineer",
-    company: "Acme Cloud",
-    region: "United States",
+    title: "",
+    company: "RT Berlin",
+    region: "Colombia",
     description:
-      "Led the design and delivery of a multi‑tenant platform, decomposed critical monolith paths into services, improved p95 latency by 40%, defined SLOs and on‑call rotations, and mentored junior engineers.",
-    technologies: [
+      "Control de inventario básico y apoyo en organización de productos",
+      "Manejo de caja registradora y medios de pago.",
+      "Atención al cliente y resolución de inquietudes.",
+      technologies: [
       "TypeScript",
       "Node.js",
       "React",
@@ -46,38 +48,5 @@ export const work = [
       "AWS",
     ],
   },
-  {
-    title: "Senior Frontend Engineer",
-    company: "Insight Analytics",
-    region: "Europe",
-    description:
-      "Owned the design system and SSR/ISR strategy, improved Core Web Vitals (LCP/INP) into the green, and shipped accessible UI components with strong tests and story coverage.",
-    technologies: [
-      "React",
-      "Next.js",
-      "Astro",
-      "Tailwind CSS",
-      "Playwright",
-      "Vitest",
-    ],
-  },
-  {
-    title: "Software Engineer",
-    company: "LaunchPad",
-    region: "Brazil",
-    description:
-      "Built MVPs end‑to‑end: designed REST/GraphQL APIs, set up CI/CD with preview environments, introduced feature flags, and migrated data to Postgres.",
-    technologies: [
-      "Node.js",
-      "Express",
-      "GraphQL",
-      "Supabase",
-      "PostgreSQL",
-      "GitHub Actions",
-      "Docker",
-    ],
-  },
-];
-
 export type WorkItem = (typeof work)[number];
 
