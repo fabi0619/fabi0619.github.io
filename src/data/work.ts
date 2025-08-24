@@ -11,16 +11,16 @@ export const workIcons = {
 
 export const work = [
   {
-    title: "",
+    title: "Cajero",
     company: "RT Berlin",
     region: "Colombia",
     description:
       "Responsable del manejo de caja registradora y medios de pago. Encargado de la atención al cliente, control de inventario y apoyo en la organización de productos.",
     technologies: [
-      "Atencion al cliente",
-      "Gestion de caja",
+      "Atención al cliente",
+      "Gestión de caja",
       "Inventario",
-      
+      "Organización de productos",
     ],
   },
   {
@@ -31,11 +31,12 @@ export const work = [
       "Gestión de ventas mediante el sistema XXX, asesoría personalizada a clientes y cumplimiento de objetivos comerciales. Uso de herramientas digitales para el seguimiento de ventas.",
     technologies: [
       "Ventas",
-      "sistema desktok",
+      "Sistema XXX",
       "Servicio al cliente",
-      
+      "Herramientas digitales",
     ],
   },
 ];
+
 export type WorkItem = (typeof work)[number];
 
