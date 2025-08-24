@@ -15,37 +15,25 @@ export const work = [
     company: "RT Berlin",
     region: "Colombia",
     description:
-      "Control de inventario básico y apoyo en organización de productos",
-      "Manejo de caja registradora y medios de pago.",
-      "Atención al cliente y resolución de inquietudes.",
-      technologies: [
-      "TypeScript",
-      "Node.js",
-      "React",
-      "PostgreSQL",
-      "Redis",
-      "AWS",
-      "Docker",
-      "Kubernetes",
-      "Terraform",
-      "GraphQL",
+      "Responsable del manejo de caja registradora y medios de pago. Encargado de la atención al cliente, control de inventario y apoyo en la organización de productos.",
+    technologies: [
+      "Atencion al cliente",
+      "Gestion de caja",
+      "Inventario",
+      
     ],
   },
   {
-    title: "Staff Software Engineer",
-    company: "FinchPay",
-    region: "Global",
+    title: "Vendedor",
+    company: "Tillas-sport",
+    region: "Colombia",
     description:
-      "Architected event‑driven payment services with idempotency and retries, introduced Kafka for async processing, enforced API versioning, and drove observability with structured logging and tracing.",
+      "Gestión de ventas mediante el sistema XXX, asesoría personalizada a clientes y cumplimiento de objetivos comerciales. Uso de herramientas digitales para el seguimiento de ventas.",
     technologies: [
-      "TypeScript",
-      "NestJS",
-      "Kafka",
-      "PostgreSQL",
-      "Redis",
-      "gRPC",
-      "OpenTelemetry",
-      "AWS",
+      "Ventas",
+      "sistema desktok",
+      "Servicio al cliente",
+      
     ],
   },
 export type WorkItem = (typeof work)[number];
