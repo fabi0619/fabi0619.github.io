@@ -16,7 +16,7 @@ export const studies = [
     title: "Tecnico en Asistencia Administrativa",
     institution: "SENA",
     description:
-      "Focus on distributed systems, testing strategies, and cloud architecture; thesis on resilience patterns in microservices.",
+      "Soy Técnico en Asistencia Administrativa, con experiencia en la gestión de documentos, organización de agendas y apoyo en procesos administrativos. Manejo herramientas ofimáticas y brindo soporte en la atención a clientes, coordinación de reuniones y elaboración de informes, contribuyendo a la eficiencia y organización de la empresa.",
     tags: [
       "Distributed Systems",
       "Cloud Architecture",
